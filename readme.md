@@ -14,6 +14,11 @@
 
         Target the Top description div and change the DEV Community to <Your_Name> and description to your passion
 
+### Solution
+
+`document.querySelector("aside h2").innerHTML = "Pranav Mathur";`
+`document.querySelector("aside p").innerHTML = "My passions include programming, sketching, reading, baking, listening to underground rap and watching pro wrestling..";`
+
 ### Output
 
 ![Output](./images/Pic2.png)
