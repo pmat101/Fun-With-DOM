@@ -32,6 +32,18 @@
 
 ### Fetch all the product name and store in an array
 
+### Solution
+
+> `const arr = [];`
+>
+> `for(let i=0; i<document.querySelectorAll(".as-imagegrid .as-imagegrid-item-title").length; i++){arr.push(document.querySelectorAll(".as-imagegrid .as-imagegrid-item-title")[i].innerText)}`
+>
+> `const arr2 = [];`
+>
+> `for(let i=0; i<arr.length; i++){arr2[i] = arr[i].replace("\nSupport", "")}`
+>
+> `console.log(arr2);`
+
 ### Output
 
 ['iPhone', 'Mac', 'iPad', 'Watch', 'AirPods', 'Music', 'TV']
