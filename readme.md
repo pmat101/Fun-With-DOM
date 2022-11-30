@@ -16,12 +16,13 @@
 
 ### Solution
 
-`document.querySelector("aside h2").innerHTML = "Pranav Mathur";`
-`document.querySelector("aside p").innerHTML = "My passions include programming, sketching, reading, baking, listening to underground rap and watching pro wrestling..";`
+> `document.querySelector("aside h2").innerHTML = "Pranav Mathur";`
+>
+> `document.querySelector("aside p").innerHTML = "My passions include programming, sketching, reading, baking, listening to underground rap and watching pro wrestling..";`
 
 ### Output
 
-![Output](./images/Pic2.png)
+![Output](./output/Pic2.png)
 
 2. Website Name: [Apple](https://support.apple.com/en-in)
 
