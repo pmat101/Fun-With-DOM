@@ -211,9 +211,13 @@
 
     change the realme logo to ineuron logo
 
+### Solution
+
+> `document.querySelector(".wrapper .icon-logo").style.backgroundImage = "url(https://learn.ineuron.ai/_next/image?url=%2Fimages%2Fineuron-logo.png&w=750&q=75)"`
+
 ### Output
 
-![Output](./images/Pic21.png)
+![Output](./output/Pic21.png)
 
 12. Webiste Name: [Github](https://github.com/)
 
