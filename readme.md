@@ -80,9 +80,13 @@
 
       Change the contact number
 
+### Solution
+
+> `document.querySelector(".contactUs--item .item--subtitle").innerText = "1234 567 8901"`
+
 ### Output
 
-![Output](./images/Pic7.png)
+![Output](./output/Pic7.png)
 
 5. Webiste Name: [Samsung](https://www.samsung.com/in/offer/online/samsung-fest/)
 
