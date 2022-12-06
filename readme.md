@@ -359,9 +359,13 @@ Target the top description and change “Matching developers with great companie
 
     change the background colour blue to orange
 
+### Solution
+
+> `document.querySelector("footer").style.background = "orange"`
+
 ### Output
 
-![Output](./images/Pic35.png)
+![Output](./output/Pic35.png)
 
 19. Webiste Name: [Canon](https://in.canon/)
 
@@ -377,9 +381,17 @@ Target the top description and change “Matching developers with great companie
 
     extract the canon logo
 
+### Solution
+
+> `let extraction = document.querySelector(".navbar-header img").src`
+>
+> `let anchor = '<a href="' + extraction + '">' + extraction + '</a>'`
+>
+> `document.querySelector(".navbar-header").innerHTML = anchor`
+
 ### Output
 
-![Output](./images/Pic37.png)
+![Output](./output/Pic37.png)
 
 20. Webiste Name: [Oppo](https://www.oppo.com/in/)
 
@@ -395,6 +407,10 @@ Target the top description and change “Matching developers with great companie
 
       Change the description colour black to orange
 
+### Solution
+
+> `document.querySelector(".section-box .desc").style.color = "orange"`
+
 ### Output
 
-![Output](./images/Pic39.png)
+![Output](./output/Pic39.png)
