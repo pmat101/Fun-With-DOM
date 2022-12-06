@@ -313,9 +313,13 @@ Target the top description and change “Matching developers with great companie
 
       change the heading “Start with the developer” to “Start with Scratch”
 
+### Solution
+
+> `document.querySelector(".geist-wrapper .geist-container h4").innerText = "Start with Scratch"`
+
 ### Output
 
-![Output](./images/Pic31.png)
+![Output](./output/Pic31.png)
 
 17. Webiste Name: [Sony](https://www.sony.co.in/)
 
@@ -331,9 +335,15 @@ Target the top description and change “Matching developers with great companie
 
      change the button text To current Date.
 
+### Solution
+
+> `let d = Date();`
+>
+> `document.querySelector("#product_summary_default .span4 .btn-container").innerHTML = d`
+
 ### Output
 
-![Output](./images/Pic32.png)
+![Output](./output/Pic32.png)
 
 18. Webiste Name: [Philips](https://www.philips.co.in/)
 
