@@ -255,9 +255,13 @@
 
 Target the top description and change “Matching developers with great companies” to ‘JSBOOTCAMP“.
 
+### Solution
+
+> `document.querySelector(".content-area .fl-heading-text").innerHTML = "JSBOOTCAMP"`
+
 ### Output
 
-![Output](./images/Pic25.png)
+![Output](./output/Pic25.png)
 
 14. Webiste Name: [Asus](https://www.asus.com/in/)
 
@@ -295,9 +299,13 @@ Target the top description and change “Matching developers with great companie
 
        Convert the text “G15 Gaming Laptop” from left to right
 
+### Solution
+
+> `document.querySelector("#d560822win9b .ps-top .ps-title").style.textAlign = "right"`
+
 ### Output
 
-![Output](./images/Pic29.png)
+![Output](./output/Pic29.png)
 
 16. Webiste Name: [Vercel](https://vercel.com/)
 
