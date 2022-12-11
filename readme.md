@@ -175,9 +175,15 @@
 
     Change the font family of the text to monospace and text color to the logo’s background color.
 
+### Solution
+
+> `document.querySelector(".display-heading-1").style.fontFamily = "monospace"`
+>
+> `document.querySelector(".display-heading-1").style.color = "#b1361e"`
+
 ### Output
 
-![Output](./images/Pic17.png)
+![Output](./output/Pic17.png)
 
 10. Webiste Name: [Freecodecamp](https://www.freecodecamp.org/)
 
