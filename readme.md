@@ -62,9 +62,19 @@
 
      Add another FAQ 'My New FAQ' to the list
 
+### Solution
+
+> `let node = document.createElement("section");`
+>
+> `node.setAttribute("class", "parent");`
+>
+> `document.querySelector("#hcfe-content .accordion-homepage").appendChild(node);`
+>
+> `document.querySelectorAll("#hcfe-content .accordion-homepage .parent")[8].innerHTML = '<h3>My New FAQ</h3>';`
+
 ### Output
 
-![Output](./images/Pic5.png)
+![Output](./output/Pic5.png)
 
 4. Webiste Name: [OnePlus](https://www.oneplus.in/support)
 
