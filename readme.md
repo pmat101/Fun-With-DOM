@@ -130,9 +130,17 @@
 
      Target the search box and on hover change thebackground color to red.
 
+### Solution
+
+> `let node = document.querySelector(".glass-search___X4QNv.glass-search-redesign___2yl_k .searchinput___19uW0");`
+>
+> `function bgChange(){node.style.backgroundColor = "Red"}`
+>
+> `node.addEventListener("mouseover", bgChange);`
+
 ### Output
 
-![Output](./images/Pic11.png)
+![Output](./output/Pic11.png)
 
 7. Webiste Name: [MDN Web Docs](https://developer.mozilla.org/en-US/)
 
