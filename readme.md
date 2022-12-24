@@ -157,9 +157,17 @@
      To Search a topic in the MDN Search bar.
      First add a text to search in the search bar and then hit the submit search button to search the docs using DOM
 
+### Solution
+
+> `let node = document.querySelector("#top-nav-search-input");`
+>
+> `node.setAttribute("value", "DOM manipulation");`
+>
+> `document.querySelector(".top-navigation-main form").submit();`
+
 ### Output
 
-![Output](./images/Pic13.png)
+![Output](./output/Pic13.png)
 
 8. Webiste Name: [Google](https://www.google.com/)
 
