@@ -175,9 +175,15 @@
 
      Remove alternate languages from the home page languages listed
 
+### Solution
+
+> `let node = document.querySelectorAll("#SIvCob a");`
+>
+> `for(let i=0; i<node.length; i+=2){node[i].remove()}`
+
 ### Output
 
-![Output](./images/Pic15.png)
+![Output](./output/Pic15.png)
 
 9. Webiste Name: [Code Wars](https://www.codewars.com/)
 
