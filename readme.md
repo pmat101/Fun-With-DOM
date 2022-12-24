@@ -223,9 +223,17 @@
 
     Target the button and change background colour on mouseover
 
+### Solution
+
+> `let node=document.querySelector(".landing-top .login-btn-text");`
+>
+> `function bgChange() {node.style.backgroundColor = "Red"}`
+>
+> `node.addEventListener("mouseover", bgChange);`
+
 ### Output
 
-![Output](./images/Pic19.png)
+![Output](./output/Pic19.png)
 
 11. Webiste Name: [realme](https://www.realme.com/in/)
 
