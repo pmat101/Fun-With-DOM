@@ -16,9 +16,9 @@
 
 ### Solution
 
-> `document.querySelector("aside h2").innerHTML = "Pranav Mathur";`
+>    `document.querySelector("aside h2").innerHTML = "Pranav Mathur";`
 >
-> `document.querySelector("aside p").innerHTML = "My passions include programming, sketching, reading, baking, listening to underground rap and watching pro wrestling..";`
+>    `document.querySelector("aside p").innerHTML = "My passions include programming, sketching, reading, baking, listening to underground rap and watching pro wrestling..";`
 
 ### Output
 
@@ -34,15 +34,15 @@
 
 ### Solution
 
-> `const arr = [];`
+>    `const arr = [];`
 >
-> `for(let i=0; i<document.querySelectorAll(".as-imagegrid .as-imagegrid-item-title").length; i++){arr.push(document.querySelectorAll(".as-imagegrid .as-imagegrid-item-title")[i].innerText)}`
+>    `for(let i=0; i<document.querySelectorAll(".as-imagegrid .as-imagegrid-item-title").length; i++){arr.push(document.querySelectorAll(".as-imagegrid .as-imagegrid-item-title")[i].innerText)}`
 >
-> `const arr2 = [];`
+>    `const arr2 = [];`
 >
-> `for(let i=0; i<arr.length; i++){arr2[i] = arr[i].replace("\nSupport", "")}`
+>    `for(let i=0; i<arr.length; i++){arr2[i] = arr[i].replace("\nSupport", "")}`
 >
-> `console.log(arr2);`
+>    `console.log(arr2);`
 
 ### Output
 
@@ -64,13 +64,13 @@
 
 ### Solution
 
-> `let node = document.createElement("section");`
+>    `let node = document.createElement("section");`
 >
-> `node.setAttribute("class", "parent");`
+>    `node.setAttribute("class", "parent");`
 >
-> `document.querySelector("#hcfe-content .accordion-homepage").appendChild(node);`
+>    `document.querySelector("#hcfe-content .accordion-homepage").appendChild(node);`
 >
-> `document.querySelectorAll("#hcfe-content .accordion-homepage .parent")[8].innerHTML = '<h3>My New FAQ</h3>';`
+>    `document.querySelectorAll("#hcfe-content .accordion-homepage .parent")[8].innerHTML = '<h3>My New FAQ</h3>';`
 
 ### Output
 
@@ -92,7 +92,7 @@
 
 ### Solution
 
-> `document.querySelector(".contactUs--item .item--subtitle").innerText = "1234 567 8901"`
+>    `document.querySelector(".contactUs--item .item--subtitle").innerText = "1234 567 8901"`
 
 ### Output
 
@@ -112,9 +112,13 @@
 
      Target the main div of card and change the Button text to Check out
 
+### Solution
+
+>    `document.querySelector("#smartphone-deals .diwali-deals-product-sale-btn").innerText = "Check Out";`
+
 ### Output
 
-![Output](./images/Pic9.png)
+![Output](./output/Pic9.png)
 
 6. Webiste Name: [Adidas](https://www.adidas.co.in/)
 
@@ -132,11 +136,11 @@
 
 ### Solution
 
-> `let node = document.querySelector(".glass-search___X4QNv.glass-search-redesign___2yl_k .searchinput___19uW0");`
+>    `let node = document.querySelector(".glass-search___X4QNv.glass-search-redesign___2yl_k .searchinput___19uW0");`
 >
-> `function bgChange(){node.style.backgroundColor = "Red"}`
+>    `function bgChange(){node.style.backgroundColor = "Red"}`
 >
-> `node.addEventListener("mouseover", bgChange);`
+>    `node.addEventListener("mouseover", bgChange);`
 
 ### Output
 
@@ -159,11 +163,11 @@
 
 ### Solution
 
-> `let node = document.querySelector("#top-nav-search-input");`
+>    `let node = document.querySelector("#top-nav-search-input");`
 >
-> `node.setAttribute("value", "DOM manipulation");`
+>    `node.setAttribute("value", "DOM manipulation");`
 >
-> `document.querySelector(".top-navigation-main form").submit();`
+>    `document.querySelector(".top-navigation-main form").submit();`
 
 ### Output
 
@@ -185,9 +189,9 @@
 
 ### Solution
 
-> `let node = document.querySelectorAll("#SIvCob a");`
+>    `let node = document.querySelectorAll("#SIvCob a");`
 >
-> `for(let i=0; i<node.length; i+=2){node[i].remove()}`
+>    `for(let i=0; i<node.length; i+=2){node[i].remove()}`
 
 ### Output
 
@@ -209,9 +213,9 @@
 
 ### Solution
 
-> `document.querySelector(".display-heading-1").style.fontFamily = "monospace"`
+>    `document.querySelector(".display-heading-1").style.fontFamily = "monospace"`
 >
-> `document.querySelector(".display-heading-1").style.color = "#b1361e"`
+>    `document.querySelector(".display-heading-1").style.color = "#b1361e"`
 
 ### Output
 
@@ -233,11 +237,11 @@
 
 ### Solution
 
-> `let node=document.querySelector(".landing-top .login-btn-text");`
+>    `let node=document.querySelector(".landing-top .login-btn-text");`
 >
-> `function bgChange() {node.style.backgroundColor = "Red"}`
+>    `function bgChange() {node.style.backgroundColor = "Red"}`
 >
-> `node.addEventListener("mouseover", bgChange);`
+>    `node.addEventListener("mouseover", bgChange);`
 
 ### Output
 
@@ -259,7 +263,7 @@
 
 ### Solution
 
-> `document.querySelector(".wrapper .icon-logo").style.backgroundImage = "url(https://learn.ineuron.ai/_next/image?url=%2Fimages%2Fineuron-logo.png&w=750&q=75)"`
+>    `document.querySelector(".wrapper .icon-logo").style.backgroundImage = "url(https://learn.ineuron.ai/_next/image?url=%2Fimages%2Fineuron-logo.png&w=750&q=75)"`
 
 ### Output
 
@@ -281,7 +285,7 @@
 
 ### Solution
 
-> `document.querySelector("section form button").style.backgroundColor = "blue"`
+>    `document.querySelector("section form button").style.backgroundColor = "blue"`
 
 ### Output
 
@@ -303,7 +307,7 @@ Target the top description and change “Matching developers with great companie
 
 ### Solution
 
-> `document.querySelector(".content-area .fl-heading-text").innerHTML = "JSBOOTCAMP"`
+>    `document.querySelector(".content-area .fl-heading-text").innerHTML = "JSBOOTCAMP"`
 
 ### Output
 
@@ -325,7 +329,7 @@ Target the top description and change “Matching developers with great companie
 
 ### Solution
 
-> `document.querySelector(".HotDealsAll__Heading__2fIbe").style.fontSize = "80px"`
+>    `document.querySelector(".HotDealsAll__Heading__2fIbe").style.fontSize = "80px"`
 
 ### Output
 
@@ -347,7 +351,7 @@ Target the top description and change “Matching developers with great companie
 
 ### Solution
 
-> `document.querySelector("#d560822win9b .ps-top .ps-title").style.textAlign = "right"`
+>    `document.querySelector("#d560822win9b .ps-top .ps-title").style.textAlign = "right"`
 
 ### Output
 
@@ -369,7 +373,7 @@ Target the top description and change “Matching developers with great companie
 
 ### Solution
 
-> `document.querySelector(".geist-wrapper .geist-container h4").innerText = "Start with Scratch"`
+>    `document.querySelector(".geist-wrapper .geist-container h4").innerText = "Start with Scratch"`
 
 ### Output
 
@@ -391,9 +395,9 @@ Target the top description and change “Matching developers with great companie
 
 ### Solution
 
-> `let d = Date();`
+>    `let d = Date();`
 >
-> `document.querySelector("#product_summary_default .span4 .btn-container").innerHTML = d`
+>    `document.querySelector("#product_summary_default .span4 .btn-container").innerHTML = d`
 
 ### Output
 
@@ -415,7 +419,7 @@ Target the top description and change “Matching developers with great companie
 
 ### Solution
 
-> `document.querySelector("footer").style.background = "orange"`
+>    `document.querySelector("footer").style.background = "orange"`
 
 ### Output
 
@@ -437,11 +441,11 @@ Target the top description and change “Matching developers with great companie
 
 ### Solution
 
-> `let extraction = document.querySelector(".navbar-header img").src`
+>    `let extraction = document.querySelector(".navbar-header img").src`
 >
-> `let anchor = '<a href="' + extraction + '">' + extraction + '</a>'`
+>    `let anchor = '<a href="' + extraction + '">' + extraction + '</a>'`
 >
-> `document.querySelector(".navbar-header").innerHTML = anchor`
+>    `document.querySelector(".navbar-header").innerHTML = anchor`
 
 ### Output
 
@@ -463,7 +467,7 @@ Target the top description and change “Matching developers with great companie
 
 ### Solution
 
-> `document.querySelector(".section-box .desc").style.color = "orange"`
+>    `document.querySelector(".section-box .desc").style.color = "orange"`
 
 ### Output
 
